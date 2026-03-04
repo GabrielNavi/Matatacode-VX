@@ -1,0 +1,15 @@
+Source: vx-dga-x-matatacode
+Section: education
+Priority: optional
+Maintainer: Gabriel Navia <correos@gabrielnav.es>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13)
+
+Package: vx-dga-x-matatacode
+Architecture: all
+Depends: 
+Description: Lanzador de Matata Studio VinceBot para Vitalinux
+ Este paquete proporciona un acceso directo a la plataforma Matata Studio
+ VinceBot, permitiendo a los estudiantes acceder a un entorno de programación
+ visual para programar robots VinceBot de forma sencilla desde el escritorio Vitalinux.
+ También incluye las reglas udev necesarias para el funcionamiento correcto del hardware.
