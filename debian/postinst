@@ -1,0 +1,12 @@
+#!/bin/bash
+# postinst script for vx-dga-x-matatacode
+#
+# Recarga las reglas de udev para que VinceBot sea reconocido sin necesidad de reiniciar el sistema.
+
+if [ "$1" = "configure" ]; then
+    # Recargar las reglas udev
+    udevadm control --reload-rules
+    udevadm trigger
+fi
+
+exit 0

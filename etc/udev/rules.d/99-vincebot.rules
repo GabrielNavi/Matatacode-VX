@@ -1,0 +1,5 @@
+# Reglas udev para VinceBot
+# Permite el acceso a VinceBot sin necesidad de permisos de root
+
+SUBSYSTEM=="usb", ATTR{idVendor}=="303a", ATTR{idProduct}=="8136", MODE="0666"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="8136", MODE="0666"
