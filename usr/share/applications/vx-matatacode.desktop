@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Matata Studio VinceBot
+Exec=chromium-browser --app=https://vinci.matatastudio.com/
+Icon=matatacode
+Categories=Escuela40;
+Type=Application
+Comment=Acceso directo a Matata Studio VinceBot
+Encoding=UTF-8
