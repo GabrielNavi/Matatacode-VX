@@ -1,3 +1,9 @@
+vx-dga-x-matatacode (1.0-2) jammy; urgency=medium
+
+  * Lanzador de Matata Studio VinceBot para Vitalinux
+  * Añade reglas udev para VinceBot en /etc/udev/rules.d/99-vincebot.rules
+
+ -- Gabriel Navia <correos@gabrielnav.es>  Mon, 03 Mar 2026 00:00:00 +0100
 vx-dga-x-matatacode (1.0-1) jammy; urgency=medium
 
   * Creación inicial del paquete
