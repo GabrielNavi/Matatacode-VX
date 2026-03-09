@@ -34,7 +34,7 @@ dpkg-buildpackage -us -uc
 - **Nombre**: vx-dga-x-matatacode
 - **Versión**: 1.0-1
 - **Arquitectura**: all
-- **Mantenedor**: Vitalinux Admin <admin@vitalinux.org>
+- **Mantenedor**: Gabriel Navia <correos@gabrielnav.es>
 - **Licencia**: GPL-3.0+
 
 ## Archivos incluidos
