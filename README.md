@@ -32,7 +32,7 @@ dpkg-buildpackage -us -uc
 ## Información del Paquete
 
 - **Nombre**: vx-dga-x-matatacode
-- **Versión**: 1.0-1
+- **Versión**: 1.0-2
 - **Arquitectura**: all
 - **Mantenedor**: Gabriel Navia <correos@gabrielnav.es>
 - **Licencia**: GPL-3.0+
