@@ -7,7 +7,7 @@ Build-Depends: debhelper-compat (= 13)
 
 Package: vx-dga-x-matatacode
 Architecture: all
-Depends: chromium-browser
+Depends: chromium-browser | google-chrome-stable | firefox-esr | firefox
 Description: Lanzador de Matata Studio VinceBot para Vitalinux
  Este paquete proporciona un acceso directo a la plataforma Matata Studio
  VinceBot, permitiendo a los estudiantes acceder a un entorno de programación
