@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Matata Studio VinceBot
-Exec=chromium-browser --app=https://vinci.matatastudio.com/
+Exec=x-www-browser https://vinci.matatastudio.com/
 Icon=matatacode
 Categories=Education;Development;Escuela40;
 Type=Application
