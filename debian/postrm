@@ -15,4 +15,14 @@ if [ "$1" = "remove" ] || [ "$1" = "purge" ]; then
     fi
 fi
 
+if [ "$1" = "purge" ]; then
+    if [ -f /etc/udev/rules.d/99-vincebot.rules ]; then
+        rm -f /etc/udev/rules.d/99-vincebot.rules || true
+    fi
+    if [ -x /usr/bin/udevadm ]; then
+        udevadm control --reload-rules || true
+        udevadm trigger || true
+    fi
+fi
+
 exit 0
