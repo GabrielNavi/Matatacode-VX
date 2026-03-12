@@ -1,4 +1,4 @@
-# vx-dga-x-matatacode
+# vx-dga-l-matatacode
 
 Paquete Debian para Vitalinux que proporciona un acceso directo a Matata Studio VinceBot.
 
@@ -31,7 +31,7 @@ dpkg-buildpackage -us -uc
 
 ## Información del Paquete
 
-- **Nombre**: vx-dga-x-matatacode
+- **Nombre**: vx-dga-l-matatacode
 - **Versión**: 1.0-2
 - **Arquitectura**: all
 - **Mantenedor**: Gabriel Navia <correos@gabrielnav.es>
