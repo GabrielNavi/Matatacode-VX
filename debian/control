@@ -1,11 +1,11 @@
-Source: vx-dga-x-matatacode
+Source: vx-dga-l-matatacode
 Section: education
 Priority: optional
 Maintainer: Gabriel Navia <correos@gabrielnav.es>
 Standards-Version: 4.6.0
 Build-Depends: debhelper-compat (= 13)
 
-Package: vx-dga-x-matatacode
+Package: vx-dga-l-matatacode
 Architecture: all
 Depends: chromium-browser | google-chrome-stable | firefox-esr | firefox
 Description: Lanzador de Matata Studio VinceBot para Vitalinux
