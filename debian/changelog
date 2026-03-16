@@ -1,3 +1,10 @@
+vx-dga-l-matatacode (1.0-3) jammy; urgency=medium
+
+  * Revisión final del paquete para cierre de publicación.
+  * Sin cambios funcionales respecto a la versión anterior.
+
+ -- Gabriel Navia <correos@gabrielnav.es>  Mon, 16 Mar 2026 18:00:00 +0100
+
 vx-dga-l-matatacode (1.0-2) jammy; urgency=medium
 
   * Lanzador de Matata Studio VinceBot para Vitalinux
