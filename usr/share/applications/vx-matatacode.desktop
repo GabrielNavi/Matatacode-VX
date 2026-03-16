@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Matata Studio VinceBot
-Exec=x-www-browser https://vinci.matatastudio.com/
+Exec=/usr/bin/vx-matatacode
 Icon=matatacode
-Categories=Education;Development;Escuela40;
+Categories=Education;Development;
 Type=Application
 Comment=Acceso directo a Matata Studio VinceBot
