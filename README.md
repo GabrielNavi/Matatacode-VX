@@ -10,6 +10,7 @@ Este paquete instala un lanzador que permite acceder fácilmente a la plataforma
 
 - Acceso directo en el menú de aplicaciones
 - Categoría: Escuela40
+- Muestra un aviso emergente al iniciar desde el acceso directo
 - Abre Matata Studio VinceBot en Chromium
 - Reglas udev para VinceBot
 - Icono personalizado de MatataCode

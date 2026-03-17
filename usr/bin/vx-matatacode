@@ -1,2 +1,15 @@
 #!/bin/sh
+AVISO_TITULO="Pasos Previos"
+AVISO_MENSAJE="Asegurate de que el vincibot esta encendido y despues conectalo al sistema"
+
+if [ -n "$DISPLAY" ]; then
+	if command -v zenity >/dev/null 2>&1; then
+		zenity --info --title="$AVISO_TITULO" --text="$AVISO_MENSAJE" >/dev/null 2>&1
+	elif command -v xmessage >/dev/null 2>&1; then
+		xmessage -center "$AVISO_MENSAJE" >/dev/null 2>&1
+	elif command -v notify-send >/dev/null 2>&1; then
+		notify-send "$AVISO_TITULO" "$AVISO_MENSAJE" >/dev/null 2>&1
+	fi
+fi
+
 xdg-open https://vinci.matatastudio.com/
